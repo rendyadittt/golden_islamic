@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180619093828",
+    "project_id": "golden-islamic",
+    "storage_bucket": "golden-islamic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180619093828:android:e1d20ce56ada1f4c965911",
+        "android_client_info": {
+          "package_name": "com.golden_islamic.golden_islamic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180619093828-kaoblv7555imc1m36i8l81thpcelalk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBns21XdyDynXF_dFJK4oIUhpNw0vnUg4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180619093828-kaoblv7555imc1m36i8l81thpcelalk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,6 +23,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  equatable: ^2.0.3
+  sqflite: ^2.0.2
+  carousel_slider: ^4.0.0
+  google_sign_in: ^5.2.4
+  firebase_auth: ^3.3.9
+  flutter_bloc: ^8.0.1
+  firebase_core: ^1.13.1
+  shared_preferences: ^2.0.13
+  cached_network_image: ^3.2.0
+  flutter_qiblah: ^2.0.2
+  get: ^4.6.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -45,7 +56,11 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/
+    - assets/db/
+    - assets/image/
+    - assets/other/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -60,7 +75,25 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+  - family: PoppinsExtraBold
+    fonts:
+      - asset: fonts/Nunito-ExtraBold.ttf
+  - family: PoppinsRegular
+    fonts:
+      - asset: fonts/Nunito-Regular.ttf
+  - family: PoppinsBold
+    fonts:
+      - asset: fonts/Nunito-Bold.ttf
+  - family: PoppinsLight
+    fonts:
+      - asset: fonts/Nunito-Light.ttf
+  - family: PoppinsMedium
+    fonts:
+      - asset: fonts/Nunito-Medium.ttf
+  - family: Lpmq
+    fonts:
+      - asset: fonts/LPMQ-IsepMisbah.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
